@@ -100,3 +100,6 @@ ca/rt_sync/lib/rt_mysql_pg_sync_auth_token.json
 *.artifact
 report.html
 report.json
+
+# Seed migrations
+migrations/V999__seed_users_data.sql
