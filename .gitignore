@@ -1,0 +1,102 @@
+# Database project .gitignore
+
+# Environment variables and secrets
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+*.env
+
+# Database files
+*.sqlite
+*.sqlite3
+*.db
+*.sql.gz
+*.dump
+
+# Logs
+logs/
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Dependency directories
+node_modules/
+jspm_packages/
+
+# Temporary files
+tmp/
+temp/
+.tmp/
+
+# OS specific files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# IDE specific files
+.idea/
+.vscode/
+.cursor/
+*.sublime-project
+*.sublime-workspace
+.project
+.classpath
+.settings/
+*.swp
+*.swo
+
+# Coverage and test reports
+coverage/
+.nyc_output/
+reports/
+
+# Build directories
+dist/
+build/
+
+# yarn
+.yarn/*
+!.yarn/patches
+!.yarn/plugins
+!.yarn/releases
+!.yarn/sdks
+!.yarn/versions
+.pnp.*
+
+# package manager locks
+# Uncomment if you want to ignore them
+# package-lock.json
+# yarn.lock
+
+# Backup files
+*.bak
+*.backup
+*~
+
+# Data files that might contain sensitive information
+data/
+exports/
+
+# Python cache files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+.pytest_cache/
+
+# RT sync specific files
+*.lock
+*_auth_token.json
+ca/rt_sync/lib/.rt_mysql_pg_sync_token.lock
+ca/rt_sync/lib/rt_mysql_pg_sync_auth_token.json
+
+# Flyway ignores
+*.user.toml
+*.artifact
+report.html
+report.json

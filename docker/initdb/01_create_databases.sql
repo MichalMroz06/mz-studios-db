@@ -1,0 +1,2 @@
+CREATE DATABASE "mz_studios_db_dev" WITH ENCODING 'UTF8';
+CREATE DATABASE "mz_studios_db_prod" WITH ENCODING 'UTF8';

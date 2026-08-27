@@ -1,0 +1,9 @@
+[environments.dev]
+url = "jdbc:postgresql://localhost:5432/mz_studios_db_dev"
+user = "postgres"
+password = "postgres"
+
+[environments.prod]
+url = "jdbc:postgresql://url_to_database:5432/mz_studios_db_prod"
+user = "your_username"
+password = "your_password"
